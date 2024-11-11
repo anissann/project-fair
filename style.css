@@ -1,0 +1,1585 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header {
+    background-color: #292e36;
+    padding: 70px 0px 20px 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+#header .logo {
+    width: 270px;
+    height: 80px;
+    margin-top: -20px;
+}
+#header a, p {
+    color: white;
+}
+#header .row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+#header .line {
+    width: 100%;
+    height: 1px;
+    background-color: #3e434a;
+    margin: 50px 0px 20px 0px;
+}
+#header p {
+    background-color: #292e36;
+    border: 1.5px #e2b168 solid;
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    padding-top: 14px;
+}
+#header p, .logo {
+    margin-right: 315px;
+}
+#header button {
+    width: 250px;
+    height: 45px;
+    background-color: #e2b168;
+    border: none;
+}
+nav {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.inst-icon, .facebook-icon, .twitter-icon, .pinterest-icon {
+    width: 25px;
+    height: 25px;
+}
+#header .row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 145px;
+    margin-top: -5px;
+}
+#header .reservation-btn {
+    color: #292e36;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+}
+#home .line {
+    width: 100%;
+    height: 1px;
+    background-color: #3e434a;
+}
+#home .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #292e36;
+    padding-top: 30px;
+}
+#home .heading {
+    color: white;
+    font-size: 80px;
+    font-family: "Cormorant Infant", serif;
+    width: 80%;
+}
+#home .column {
+    display: flex;
+    flex-direction: column;
+    padding: 170px 0px 100px 50px;
+    width: 50%;
+    height: auto;
+}
+#home img {
+    width: 550px;
+    height: 650px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-left: 100px;
+    border: 40px #3e434a solid;
+    border-bottom: none;
+    padding: 20px;
+}
+#home .info {
+    width: 90%;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 25px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+#home button {
+    width: 150px;
+    height: 45px;
+    background-color: #292e36;
+    border: 1.5px #e2b168 solid;
+    margin-top: 20px;
+}
+#home button:hover {
+    background-color: #e2b168;
+}
+#home .inside-button {
+    color: white;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+}
+#about .row-1 {
+    display: flex;
+    flex-direction: row;
+}
+#about .column-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+#about .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    background-color: #fff8f5;
+    padding: 100px 0px;
+}
+#about .icon {
+    width: 60px;
+    height: 60px;
+}
+#about p, span {
+    color: black;
+}
+#about span {
+    font-family: "Josefin Sans", sans-serif;
+}
+#about .montserrat {
+    font-family: "Work Sans", serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin-top: 25px;
+}
+#about .sacramento {
+    font-family: "Sacramento";
+    font-size: 80px;
+    margin-top: 15px;
+}
+#about .container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff8f5;
+    width: 100%;
+    height: auto;
+}
+#about .column-2 {
+    display: flex;
+    flex-direction: column;
+}
+#about .row-2 {
+    display: flex;
+    flex-direction: row;
+}
+#about .canteen {
+    width: 55%;
+    height: auto;
+    margin-left: 40px;
+}
+#about .text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px 40px;
+}
+#about .heading {
+    font-size: 40px;
+    color: #292e36;
+    margin: -20px 0px 20px 0px;
+}
+#about .info {
+    font-size: 16px;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 24px;
+    width: 455px;
+}
+#about .info-small {
+    font-size: 16px;
+    color: #292e36;
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    line-height: 24px;
+    font-family: "Josefin Sans", sans-serif;
+}
+#about .heading-small {
+    font-size: 40px;
+    color: #292e36;
+    margin-top: 30px;
+}
+#menu .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 0px;
+}
+#menu .left {
+    display: flex;
+    flex-direction: column;
+}
+#menu .border-1 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    width: 60px;
+    padding: 7px 0px;
+    margin: 100px 0px 0px 40px
+}
+#menu .width {
+    color: #292e36;
+    margin: 0px 0px 30px 40px;
+    width: 70%;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 24px;
+    font-size: 18.5px;
+}
+#menu .main-menu-img {
+    width: 398px;
+    height: 548px;
+    margin-left: 40px;
+}
+#menu button {
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    border: 1.5px #e2b168 solid;
+    margin-top: 30px;
+    color: #e2b168;
+    margin-left: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+}
+#menu .inside-button {
+    color: #e2b168;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+}
+#menu button:hover {
+    background-color: #292e36;
+}
+#menu .heading-1 {
+    font-size: 40px;
+    margin: 30px 0px 30px 40px;
+    color: #292e36;
+}
+#menu .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#menu .column-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+#menu .box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+#menu .menu-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#menu .name, .recipe {
+    width: 300px;
+    height: auto;
+    color: #292e36;
+}
+#menu .price {
+    color: #292e36;
+    margin-top: 40px;
+}
+#menu .heading-2 {
+    color: #292e36;
+    margin: 140px 0px 20px 0px;
+    font-size: 34px;
+}
+#menu .line-3 {
+    width: 150px;
+    height: 1px;
+    background-color: #292e36;
+    margin: 55px 10px 0px 0px;
+}
+#menu .name, .price {
+    font-family: "Cormorant Infant", serif;
+}
+#menu .recipe {
+    font-family: "Josefin Sans", sans-serif;
+}
+#header-pages {
+    background-color: #292e36;
+    position: fixed;
+    width: 100%;
+}
+#header-pages a {
+    color: white;
+    padding: 20px 0px 15px 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+#header-pages .row-2 {
+    display: flex;
+    flex-direction: row;
+}
+#review img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#review .container {
+    background-color: #292e36;
+    width: 100%;
+    height: auto;
+    padding: 70px 40px;
+}
+#review .box {
+    display: flex;
+    flex-direction: column;
+    background-color: #3e434a;
+    width: 30%;
+    height: auto;
+    padding: 0px 30px;
+    margin: 30px 100px 0px 0px
+}
+#review .column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#review .row {
+    display: flex;
+    flex-direction: row;
+}
+#review .line-4 {
+    width: 100%;
+    height: 1px;
+    background-color: #797e89;
+    margin: 20px 0px;
+}
+#review .border-2 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    width: 93px;
+    padding: 7px 0px;
+    margin: 0px 0px 15px 0px;
+}
+#review .heading-1, .info {
+    margin: 0px 0px 15px 0px;
+}
+#review .yellow {
+    color: #e2b168;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+}
+#review .heading-1, .heading-2, .review {
+    font-family: "Cormorant Infant", serif;
+}
+
+#review .info {
+    font-family: "Josefin Sans", sans-serif;
+}
+#review .row-boxes {
+    display: flex;
+    flex-direction: row;
+}
+#review .img-under {
+    width: 100%;
+    height: 350px;
+    border-radius: 0%;
+    object-fit: cover;
+    margin: 0px;
+}
+#team .box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+#team .team-member {
+    width: 270px;
+    height: 200px;
+}
+#team {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 10% 40% 40%;
+    gap: 30px;
+    width: 100%;
+    padding: 70px 0px 100px 0px;
+}
+#team .heading {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    color: #292e36;
+}
+#team p, h3 {
+    color: #292e36;
+}
+#team h3 {
+    font-family: "Cormorant Infant", serif;
+    margin-top: 10px;
+}
+#team h2 {
+    font-family: "Cormorant Infant", serif;
+    font-size: 34px;
+    text-align: center;
+}
+#team p {
+    font-family: "Josefin Sans", sans-serif;
+    color: #3e434a;
+    margin-top: 10px;
+}
+#team .info {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.line-5 {
+    width: 93.5%;
+    height: 1px;
+    background-color: #3e434a;
+    margin: 50px 0px 45px 40px
+}
+#reservation .yellow {
+    font-family: "Work Sans", serif;
+    font-size:  20px;
+    color: #e2b168;
+    text-align: center;
+    text-align: center;
+}
+#reservation h2 {
+    font-size: 40px;
+    font-family: "Cormorant Infant", serif;
+    color: #292e36;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#reservation h4 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #292e36;
+    font-size: 17px;
+}
+#reservation p {
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+#reservation {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+
+
+
+#offer .border-3{
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    width: 80px;
+    padding: 7px 0px;
+    margin: 100px 0px 15px 590px;
+}
+#offer .heading-1 {
+    color: #292e36;
+    font-family: "Cormorant Infant", serif;
+    font-size: 40px;
+    margin: 0px 20px 15px 0px;
+    text-align: center;
+}
+#offer .info {
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 40px;
+    font-size: 18px;
+    width: 700px;
+    margin-left: 305px;
+    text-align: center;
+}
+#offer p {
+    color: #292e36;
+}
+#offer .container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin-left: 80px;
+}
+#offer .row-1 {
+    display: flex;
+    flex-direction: row;
+}
+#offer .column {
+    display: flex;
+    flex-direction: column;
+}
+#offer .box-1, .box-2 {
+    width: 40%;
+    height: auto;
+    padding: 40px;
+}
+#offer .offers {
+    width: 300px;
+    height: 200px;
+}
+#offer .box-1 {
+    margin-right: 50px;
+    background-image: url(bg-offers.jpeg);
+    width: 500px;
+}
+#offer .box-2 {
+    background-image: url(bg-offer.jpeg);
+    width: 500px;
+}
+#offer .row-1 {
+    width: 90%;
+    height: auto;
+}
+#offer .row-2 {
+    margin-left: 110px;
+    display: flex;
+    flex-direction: row;
+}
+#offer .big {
+    font-size: 36px;
+}
+#offer .heading-2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+#offer .border-4 {
+    border-bottom:1.5px #292e36 solid;
+    border-top:1.5px #292e36 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    width: 150px;
+    font-size: 14px;
+    padding: 7px 0px;
+    margin: 10px 0px;
+}
+#offer .info-2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+#popular-dishes .border-5 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    width: 65px;
+    padding: 7px 0px;
+    margin: 150px 0px 0px 645px;
+}
+#popular-dishes .heading-1 {
+    color: #292e36;
+    font-family: "Cormorant Infant", serif;
+    font-size: 40px;
+    margin: 10px 0px 15px 30px;
+    text-align: center;
+}
+#popular-dishes .info {
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 40px;
+    font-size: 18px;
+    width: 600px;
+    margin-left: 375px;
+    text-align: center;
+    color: #292e36;
+}
+#popular-dishes .mini-container {
+    display: flex;
+    flex-direction: column;
+}
+#popular-dishes .row-2 {
+    display: flex;
+    flex-direction: row;
+    font-family: "Cormorant Infant", serif;
+    font-size: 22px;
+    justify-content: space-between;
+    width: 315px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+#popular-dishes .mini-container {
+    display: flex;
+    flex-direction: column;
+}
+#popular-dishes .popular-dishes {
+    width: 315px;
+    height: 300px;
+    margin-right: 40px;
+}
+#popular-dishes .container-2 {
+    width: 90%;
+    margin-left: 40px;
+}
+#popular-dishes .width-p{
+    width: 315px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #292e36;
+}
+#popular-dishes .line-6 {
+    width: 315px;
+    height: 1px;
+    background-color: #292e36;
+    margin: 8px 0px;
+}
+#popular-dishes button {
+    border: 1.5px #e2b168 solid;
+    background-color: white;
+    width: 200px;
+    height: 45px;
+    margin: 80px 0px 60px 630px;
+}
+#popular-dishes .button-a {
+    color: #e2b168;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+}
+#popular-dishes p {
+    color: #292e36;
+}
+#popular-dishes .row-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#popular-dishes .container-3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #292e36;
+    padding: 100px;
+    margin: 40px 0px;
+}
+#popular-dishes .column-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+#popular-dishes .heading-3 {
+    color: #fff8f5;
+}
+#popular-dishes .border-6 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    width: 165px;
+    padding: 7px 0px;
+}
+#popular-dishes .heading-3 {
+    font-size: 38px;
+    margin: 8px 0px;
+    font-family: "Cormorant Infant", serif;
+}
+#popular-dishes .info-2 {
+    width: 400px;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+#popular-dishes .column-3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    border:20px #3e434a solid;
+    padding: 5px 20px 10px 20px;
+}
+#popular-dishes .p-under {
+    color: white;
+    font-family: "Cormorant Infant", serif;
+    text-align: center;
+}
+
+
+
+
+#blog .border-5 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    width: 60px;
+    padding: 7px 0px;
+    margin: 150px 0px 0px 690px;
+}
+#blog .heading-1 {
+    color: #292e36;
+    font-family: "Cormorant Infant", serif;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+#blog .info-1 {
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 40px;
+    font-size: 18px;
+    width: 600px;
+    margin-left: 420px;
+    text-align: center;
+}
+#blog .border-6 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    width: 100px;
+    padding: 5px 0px;
+    margin-right: 30px;
+}
+#blog .border-7 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    width: 150px;
+    padding: 5px 0px;
+}
+#blog .overall-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    place-content: center;
+}
+#blog .row {
+    display: flex;
+    flex-direction: row;
+}
+#blog .blog {
+    width: 600px;
+    height: 400px;
+}
+#blog .text {
+    width: 550px;
+    height: auto;
+    padding: 30px;
+}
+#blog .heading {
+    font-size: 24px;
+    margin: 20px 0px;
+    line-height: 26px;
+    color: #292e36;
+}
+#blog .info-2 {
+    font-size: 16px;
+    line-height: 23px;
+    color: #292e36;
+}
+#blog .main-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+}
+#blog .border-8 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: #292e36;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    width: 90px;
+    padding: 5px 0px;
+    margin-right: 30px;
+}
+#header-pages {
+    background-color: #292e36;
+    position: fixed;
+    width: 100%;
+}
+#header-pages a {
+    color: white;
+    padding: 20px 0px 15px 0px;
+}
+#header-pages .icons {
+    margin-left: 350px;
+}
+
+
+
+
+#reserve .big-box {
+    background-image: url(reserve-main-photo.avif);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    place-content: center;
+    margin-top: 150px;
+}
+#reserve .small-box {
+    background-color: #292e36f1;
+    width: 900px;
+    height: 600px;
+    display: grid;
+    place-content: center;
+    padding: 40px;
+    text-align: center;
+}
+#reserve .input-1, .input-2 {
+    width: 216px;
+    height: 50px;
+    background-color: #292e36f1;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+#reserve .input-3, .input-4, .input-5 {
+    width: 142px;
+    height: 50px;
+    background-color: #292e36f1;
+    border: 1px solid white;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+#reserve .book-table {
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+}
+input::placeholder {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+}
+#reserve .input-1 {
+    margin-right: 30px;
+    margin-left: -15px;
+}
+#reserve .border-9 {
+    border-bottom:1.5px #e2b168 solid;
+    border-top:1.5px #e2b168 solid;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    width: 130px;
+    padding: 5px 0px;
+    margin-left: 175px;
+}
+#reserve .heading-reserve {
+    font-size: 34px;
+    margin: 20px 0px;
+    font-family: "Cormorant Infant", serif;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    #header .logo {
+        width: 70px;
+        height: 20px;
+        margin: 10px 35px;
+    }
+    #header .row-1 {
+        margin-left: 40px;
+    }
+    #header .line {
+        width: 100%;
+        height: 1px;
+        background-color: #3e434a;
+        margin: 50px 0px 20px 0px;
+    }
+    #header p {
+        width: 130px;
+        height: 40px;
+        font-size: 11px;
+    }
+    #header p, .logo {
+        margin-right: 0px;
+    }
+    #header button {
+        width: 130px;
+        height: 40px;
+        font-size: 11px;
+    }
+    nav {
+        width: 320px;
+        font-size: 12px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    .inst-icon, .facebook-icon, .twitter-icon, .pinterest-icon {
+        width: 15px;
+        height: 15px;
+    }
+    #header .row-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 30px;
+    }
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        width: 60px;
+        margin-top: -5px;
+    }
+    #header .reservation-btn {
+        color: #292e36;
+        text-decoration: none;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 12px;
+    }
+    #home .line {
+        width: 100%;
+        height: 1px;
+        background-color: #3e434a;
+    }
+    #home .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: #292e36;
+        padding-top: 30px;
+    }
+    #home .heading {
+        color: white;
+        font-size: 40px;
+        font-family: "Cormorant Infant", serif;
+        width: 100%;
+    }
+    #home .column {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 20px 20px;
+        width: 90%;
+        height: auto;
+    }
+    #home img {
+        width: 400px;
+        height: 500px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        margin-left: 20px;
+        border: 30px #3e434a solid;
+        border-bottom: none;
+    }
+    #home .info {
+        font-size: 15px;
+    }
+    #home button {
+        margin-top: 0px;
+    }
+    #about .row-1 {
+        margin: 20px 0px 20px 40px
+    }
+    #about .box {
+        display: flex;
+        flex-direction: column;
+    }
+    #about p, span {
+        color: black;
+        font-size: 18px;
+    }
+    #about .montserrat {
+        font-family: "Work Sans", serif;
+        letter-spacing: 3px;
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    #about .sacramento {
+        font-family: "Sacramento";
+        font-size: 80px;
+        margin-top: 15px;
+    }
+    #about .container {
+        display: flex;
+        flex-direction: column;
+    }
+    #about .canteen {
+        width: 90%;
+        margin-left: 20px;
+    }
+    #about .text {
+        width: 90%;
+        padding: 20px;
+    }
+    #about .heading {
+        font-size: 34px;
+        margin: 0px 0px 20px 0px;
+    }
+    #about .info {
+        font-size: 14px;
+        width: 400px;
+    }
+    #about .info-small {
+        font-size: 14px;
+        width: 150px;
+        margin-top: 0px;
+    }
+    #about .heading-small {
+        font-size: 34px;
+        margin-top: 0px;
+    }
+    #reserve .big-box {
+        background-image: url(reserve-main-photo.avif);
+        background-size: cover;
+        width: 105%;
+        height: 400px;
+    }
+    #reserve .small-box {
+        background-color: #292e36f1;
+        width: 300px;
+        height: 200px;
+        display: grid;
+        place-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    #reserve .input-1, .input-2 {
+        width: 100px;
+        height: 20px;
+        background-color: #292e36f1;
+        padding-left: 10px;
+        border: 1px solid white;
+        margin: -30px -15px -30px -15px
+    }
+    #reserve .input-3, .input-4, .input-5 {
+        width: 62px;
+        height: 20px;
+        background-color: #292e36f1;
+        border: 1px solid white;
+        padding-left: 10px;
+        margin: 20px 5px 0px 5px;
+    }
+    #reserve .book-table {
+        width: 70px;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 80px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 8px;
+    }
+    input::placeholder {
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 10px;
+    }
+    #reserve .input-1 {
+        margin-right: 30px;
+        margin-left: -15px;
+    }
+    #reserve .border-9 {
+        border-bottom:1.5px #e2b168 solid;
+        border-top:1.5px #e2b168 solid;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 3px;
+        font-size: 8px;
+        width: 90px;
+        padding: 5px 0px;
+        margin-left: 73px;
+        margin-bottom: -10px;
+    }
+    #reserve .heading-reserve {
+        font-size: 20px;
+        margin: 20px 0px 20px 20px;
+        font-family: "Cormorant Infant", serif;
+    }
+    #header-pages {
+        font-family: "Josefin Sans", sans-serif;
+        position: fixed;
+        width: 100%;
+    }
+    #header-pages .icons {
+        margin-left: 50px;
+    }
+    #review .container {
+        padding: 40px;
+    }
+    #review .box {
+        width: 90%;
+    }
+    #review .row-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    #review .img-under {
+        height: 200px;
+    }
+    #team .box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    #team .team-member {
+        width: 170px;
+        height: 100px;
+        object-fit: cover;
+    }
+    #team {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-template-rows: 10% 20% 20% 20% 20%;
+        gap: 20px;
+        width: 100%;
+        padding: 70px 0px 100px 0px;
+        margin-left: 10px;
+    }
+    #team .heading {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        color: #292e36;
+        margin-left: 20px;
+    }
+    #team p, h3 {
+        color: #292e36;
+    }
+    #team h3 {
+        font-family: "Cormorant Infant", serif;
+        margin-top: 5px;
+        font-size: 14px;
+        width: 170px;
+    }
+    #team h2 {
+        font-family: "Cormorant Infant", serif;
+        font-size: 24px;
+        text-align: center;
+    }
+    #team p {
+        font-family: "Josefin Sans", sans-serif;
+        color: #3e434a;
+        margin-top: 5px;
+        font-size: 10px;
+        width: 170px;
+    }
+    #team .info {
+        font-family: "Josefin Sans", sans-serif;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .line-5 {
+        width: 93.5%;
+        height: 1px;
+        background-color: #3e434a;
+        margin: 0px 0px 0px 15px
+    }
+    #reservation .yellow {
+        font-size:  14px;
+        margin-bottom: 20px;
+    }
+    #reservation h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #reservation h4 {
+        font-size: 10px;
+    }
+    #reservation p {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    #reservation {
+        width: 90%;
+        margin-left: 20px;
+    }
+    #menu .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 0px;
+    }
+    #menu .left {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu .border-1 {
+        border-bottom:1.5px #e2b168 solid;
+        border-top:1.5px #e2b168 solid;
+        color: #292e36;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 3px;
+        width: 60px;
+        padding: 7px 0px;
+        margin: 100px 0px 0px 40px
+    }
+    #menu .width {
+        color: #292e36;
+        margin: 0px 0px 30px 40px;
+        width: 70%;
+        font-family: "Josefin Sans", sans-serif;
+        line-height: 24px;
+        font-size: 18.5px;
+    }
+    #menu .main-menu-img {
+        width: 398px;
+        height: 548px;
+        margin-left: 40px;
+    }
+    #menu button {
+        width: 150px;
+        height: 45px;
+        background-color: white;
+        border: 1.5px #e2b168 solid;
+        margin-top: 30px;
+        color: #e2b168;
+        margin-left: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 16px;
+    }
+    #menu .inside-button {
+        color: #e2b168;
+        text-decoration: none;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 15px;
+    }
+    #menu button:hover {
+        background-color: #292e36;
+    }
+    #menu .heading-1 {
+        font-size: 40px;
+        margin: 30px 0px 30px 40px;
+        color: #292e36;
+    }
+    #menu .right {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    #menu .column-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    }
+    #menu .box {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    #menu .menu-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    #menu .name, .recipe {
+        width: 300px;
+        height: auto;
+        color: #292e36;
+    }
+    #menu .price {
+        color: #292e36;
+        margin-top: 40px;
+    }
+    #menu .heading-2 {
+        color: #292e36;
+        margin: 140px 0px 20px 0px;
+        font-size: 34px;
+    }
+    #menu .line-3 {
+        width: 150px;
+        height: 1px;
+        background-color: #292e36;
+        margin: 55px 10px 0px 0px;
+    }
+    #menu .name, .price {
+        font-family: "Cormorant Infant", serif;
+    }
+    #menu .recipe {
+        font-family: "Josefin Sans", sans-serif;
+    }
+    #menu .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #menu .left {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu .right {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 30px 30px;
+    }
+
+
+
+    #offer .border-3{
+        width: 70px;
+        margin: 100px 0px 15px 150px;
+        font-size: 14px;
+    }
+    #offer .heading-1 {
+        font-size: 24px;
+        margin: 0px 90px 15px 0px;
+    }
+    #offer .info {
+        font-size: 13px;
+        width: 350px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    #offer .offers {
+        width: 220px;
+        height: 120px;
+        margin-left: 20px;
+    }
+    #offer .box-1 {
+        width: 400px;
+        height: 200px;
+        margin-bottom: 40px;
+    }
+    #offer .box-2 {
+        width: 400px;
+        height: 200px;
+    }
+    #offer .row-2 {
+        margin-left: -15px;
+        display: flex;
+        flex-direction: column;
+    }
+    #offer .big {
+        font-size: 14px;
+    }
+    #offer .heading-2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #offer .border-4 {
+        border-bottom:1.5px #292e36 solid;
+        border-top:1.5px #292e36 solid;
+        color: #292e36;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 3px;
+        width: 130px;
+        font-size: 11px;
+        padding: 7px 0px;
+        margin: 10px 0px;
+    }
+    #offer .info-2 {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    #popular-dishes .border-5 {
+        width: 55px;
+        margin: 150px 0px 0px 197px;
+        font-size: 14px;
+    }
+    #popular-dishes .heading-1 {
+        font-size: 30px;
+        margin: 10px 0px 15px 5px;
+    }
+    #popular-dishes .info {
+        font-family: "Josefin Sans", sans-serif;
+        margin-bottom: 40px;
+        font-size: 14px;
+        width: 360px;
+        margin-left: 40px;
+        text-align: center;
+        color: #292e36;
+    }
+    #popular-dishes .mini-container {
+        display: flex;
+        flex-direction: column;
+    }
+    #popular-dishes .mini-container {
+        display: flex;
+        flex-direction: column;
+    }
+    #popular-dishes button {
+        border: 1.5px #e2b168 solid;
+        background-color: white;
+        width: 200px;
+        height: 45px;
+        margin: 80px 0px 60px 170px;
+        margin-top: 20px;
+    }
+    #popular-dishes .row-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #popular-dishes .container-3 {
+        display: flex;
+        flex-direction: column;
+        width: 105%;
+    }
+    #popular-dishes .column-2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+    }
+    #popular-dishes .heading-3 {
+        color: #fff8f5;
+    }
+    #popular-dishes .border-6 {
+        border-bottom:1.5px #e2b168 solid;
+        border-top:1.5px #e2b168 solid;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 3px;
+        font-size: 14px;
+        width: 165px;
+        padding: 7px 0px;
+    }
+    #popular-dishes .heading-3 {
+        font-size: 38px;
+        margin: 8px 0px;
+        font-family: "Cormorant Infant", serif;
+    }
+    #popular-dishes .info-2 {
+        width: 400px;
+        font-size: 18px;
+        line-height: 23px;
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    #popular-dishes .column-3 {
+        display: flex;
+        flex-direction: column;
+        border:20px #3e434a solid;
+        padding: 5px 20px 10px 20px;
+        margin: 10px 0px;
+    }
+    #popular-dishes .p-under {
+        color: white;
+        font-family: "Cormorant Infant", serif;
+        text-align: center;
+    }
+    
+    
+    
+    
+    #blog .border-5 {
+        border-bottom:1.5px #e2b168 solid;
+        border-top:1.5px #e2b168 solid;
+        color: #292e36;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 3px;
+        font-size: 18px;
+        width: 60px;
+        padding: 7px 0px;
+        margin: 150px 0px 0px 220px;
+    }
+    #blog .heading-1 {
+        font-size: 26px;
+        margin: 10px 0px 10px 0px;
+    }
+    #blog .info-1 {
+        font-family: "Josefin Sans", sans-serif;
+        margin-bottom: 40px;
+        font-size: 14px;
+        width: 300px;
+        margin-left: 100px;
+        text-align: center;
+        color: #292e36;
+    }
+    #blog .border-6 {
+        border-bottom:1.5px #e2b168 solid;
+        border-top:1.5px #e2b168 solid;
+        color: #292e36;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 3px;
+        font-size: 14px;
+        width: 100px;
+        padding: 5px 0px;
+        margin-right: 30px;
+    }
+    #blog .border-7 {
+        border-bottom:1.5px #e2b168 solid;
+        border-top:1.5px #e2b168 solid;
+        color: #292e36;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 3px;
+        font-size: 14px;
+        width: 150px;
+        padding: 5px 0px;
+    }
+    #blog .overall-container {
+        margin-bottom: 20px;
+    }
+    #blog .row {
+        display: flex;
+        flex-direction: row;
+    }
+    #blog .blog {
+        width: 400px;
+        height: 300px;
+    }
+    #blog .text {
+        width: 350px;
+        height: auto;
+        padding: 30px;
+    }
+
+    #blog .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
